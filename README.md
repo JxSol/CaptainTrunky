@@ -21,9 +21,19 @@ I think it's obvious solution here.
 2. Make sure you have the latest versions of Git and Python installed.
 3. Clone repository:
 ```bash
-git clone https://github.com/JxSol/captaintrunky_test.git
+git clone git@github.com:JxSol/CaptainTrunky.git
 ```
-4. Install requerements:
+4. Create and activate virtual environment:
+```bash
+python -m venv venv
+```
+```bash
+# Windows:
+.\venv\Scripts\activate
+# Linux:
+source venv/bin/activate
+```
+5. Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
